@@ -3,13 +3,14 @@
 const express = require('express');
 const app = express();
 const routes = require('./routes/');
+const bodyParser = require('body-parser');
 
 const PORT = process.env.PORT || 3000;
 
 app.use(routes);
 
 app.listen(PORT, () => {
-  // console.log('yes sir');
+  console.log('hey, from server.js!!');
 });
 
 // var server = http.createServer ( function (req, res) {
