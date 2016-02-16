@@ -3,7 +3,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/default', (req, res) => {
+router.get('/home', (req, res) => {
   res.send('I\'m workin here');
 });
 
