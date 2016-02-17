@@ -2,6 +2,9 @@
 'use strict';
 
 module.exports.index = (req, res) => {
-  res.render('quote');
+
+// const quoteAPI = require('../model/api');
+console.log('Hello, from controllers>quote.js');
+res.render('quote');
 };
 
