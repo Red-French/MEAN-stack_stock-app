@@ -1,4 +1,7 @@
+// model
 'use strict';
+
+// $http.get
 
 // $http({
 // method: 'GET',
